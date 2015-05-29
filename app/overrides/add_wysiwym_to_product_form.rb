@@ -63,6 +63,7 @@ Deface::Override.new(
         }
       );
 
+      $('#editor').html($('#product_description').val());
       $('#product_description').hide();
 
       function update_output() {
